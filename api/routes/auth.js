@@ -75,7 +75,6 @@ router.post("/reset-password/:token", async (req, res) => {
 
 // Login Route
 router.post('/login', async (req, res) => {
-  console.log("i am in login")
   const { email, password } = req.body;
 
   try {

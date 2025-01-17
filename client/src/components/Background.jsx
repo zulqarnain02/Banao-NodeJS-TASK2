@@ -12,7 +12,7 @@ const Background = () => {
 
       {/* Medical-Themed Random Background Elements */}
       {Array.from({ length: 60 }).map((_, index) => {
-        const symbols = ["😰", "🧑‍⚕️", "💪", "🧠", "🫁", "🫀", "🗣️", "🩺", "⏱"]; // Medical symbols
+        const symbols = ["$", "●", "Ł", "Ɖ", "₳", "✕", "€", "₮", "Xi","₿","Ξ","₹"]; // Medical symbols
         const randomSymbol =
           symbols[Math.floor(Math.random() * symbols.length)];
         const fixedSize = "text-5xl"; // Fixed size for symbols
